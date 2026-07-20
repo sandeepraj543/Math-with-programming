@@ -1,29 +1,27 @@
-// write a java program to print all integers between -N to +N through user input.
+// write a java program to print all integers between -N to +M through user input.
+/*
+import java.util.Scanner;
 
-// import java.util.Scanner;
+public class third {
+    public static void main(String[] args) {
 
-// public class third {
-//     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-//         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter any -ve numbers :");
+        int N = sc.nextInt();
 
-//         System.out.print("Enter any -ve numbers :");
-//         int N = sc.nextInt();
+        System.out.print("Enter any +ve numbers :");
+        int M = sc.nextInt();
 
-//         System.out.print("Enter any +ve numbers :");
-//         int M = sc.nextInt();
-
-//         System.out.println("All integers from " + (N) + " to " + M + " are:");
-//         for (int i = N; i <= M; i++) {
-//             System.out.println(i);
-//         }
-//     }
-// }
-
-
+        System.out.println("All integers from " + (N) + " to " + M + " are:");
+        for (int i = N; i <= M; i++) {
+            System.out.println(i);
+        }
+    }
+} 
+ */
 
 // other way to print all integers from -N to +N through user input.
-
 import java.util.Scanner;
 
 public class third {
